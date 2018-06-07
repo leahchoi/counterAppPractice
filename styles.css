@@ -1,5 +1,19 @@
-.box {
-    width: 300px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.incrementBox{
+    width: 500px;
     height: 300px;
-    background-color: lightgreen;
+    background-color: pink;
+    margin: 0 auto; 
+    margin-top: 15%;
+    position: relative;
+}
+p{
+    text-align: center;
+    position: relative;
+    top: 50%;
 }
